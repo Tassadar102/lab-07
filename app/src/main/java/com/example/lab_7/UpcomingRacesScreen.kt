@@ -31,7 +31,7 @@ fun UpcomingRacesScreen(navController: NavController) {
         mutableStateOf("")
     }
 
-    var races = remember {
+    val races = remember {
         mutableStateListOf<String>()
     }
 
